@@ -1,12 +1,14 @@
-import React from 'react';
+import React from 'react'
 
 const App = () => {
-  console.log(test);
+  const test = 12
+  console.log(test)
   return (
     <div>
+      {12}
       App Page
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
